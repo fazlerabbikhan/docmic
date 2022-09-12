@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import pose_2 from '../../images/pose_2.png'
 import tic from '../../images/tic.png'
-import circle from '../../images/circle.png'
+import ellipse from '../../images/ellipse.png'
 
 const Header = () => {
     return (
@@ -30,7 +30,7 @@ const Header = () => {
                     </div>
                 </div>
                 <div style={{
-                    background: `url(${circle})`,
+                    background: `url(${ellipse})`,
                     backgroundSize: 'cover'
                 }} className='relative'>
                     <img src={pose_2} alt="pose_2" />
