@@ -2,6 +2,9 @@ import React from 'react';
 import pose4 from '../../images/pose4.png';
 import ellipse1 from '../../images/ellipse1.png';
 import ellipse2 from '../../images/ellipse2.png';
+import heart from '../../images/heart.png';
+import gloves from '../../images/gloves.png';
+import pressure from '../../images/pressure.png';
 
 const Questions = () => {
     return (
@@ -72,8 +75,11 @@ const Questions = () => {
             </div>
 
             <div className='relative'>
-                <img src={ellipse1} className='absolute w-1/2 left-20' alt="" />
+                <img src={ellipse1} className='absolute w-1/2 top-6 left-20' alt="" />
                 <img src={ellipse2} className='absolute bottom-12' alt="" />
+                <img src={heart} className='absolute top-20' alt="" />
+                <img src={gloves} className='absolute bottom-40 right-16' alt="" />
+                <img src={pressure} className='absolute right-6' alt="" />
                 <img src={pose4} className='relative' alt="" />
             </div>
         </div>

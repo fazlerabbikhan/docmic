@@ -2,6 +2,9 @@ import React from 'react';
 import pose3 from '../../images/pose3.png';
 import ellipse1 from '../../images/ellipse1.png';
 import ellipse2 from '../../images/ellipse2.png';
+import sanitizer from '../../images/sanitizer.png';
+import mask from '../../images/mask.png';
+import thermogun from '../../images/thermogun.png';
 import doctor from '../../images/doctor.png';
 import doctorbg from '../../images/doctorbg.png';
 import exclusive from '../../images/exclusive.png';
@@ -15,8 +18,11 @@ const Feature = () => {
     return (
         <div className='md:flex justify-between mb-12 px-20 lg:px-40'>
             <div className='relative'>
-                <img src={ellipse1} className='absolute w-1/2 left-20' alt="" />
+                <img src={ellipse1} className='absolute w-1/2 top-8 left-20' alt="" />
                 <img src={ellipse2} className='absolute bottom-32' alt="" />
+                <img src={sanitizer} className='absolute bottom-56 left-4' alt="" />
+                <img src={mask} className='absolute left-16' alt="" />
+                <img src={thermogun} className='absolute bottom-56 right-4' alt="" />
                 <img src={pose3} className='relative' alt="" />
             </div>
 

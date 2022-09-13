@@ -2,7 +2,6 @@ import React from 'react';
 import Experiences from './Experiences';
 import Feature from './Feature';
 import Feedback from './Feedback';
-import Footer from './Footer';
 import Header from './Header';
 import Questions from './Questions';
 import Services from './Services';
@@ -18,7 +17,6 @@ const Home = () => {
             <Questions></Questions>
             <Testimonial></Testimonial>
             <Feedback></Feedback>
-            <Footer></Footer>
         </div>
     );
 };
