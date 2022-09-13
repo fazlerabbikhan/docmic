@@ -7,7 +7,7 @@ import opthalmology from '../../images/opthalmology.png';
 
 const Services = () => {
     return (
-        <div className='mt-12'>
+        <div className='mb-12 px-20 lg:px-40'>
             <div>
                 <h1 className='text-xl text-secondary text-center font-semibold'>Our Services</h1>
                 <h2 className='text-4xl text-center font-semibold mt-4'>Services For Your Health</h2>

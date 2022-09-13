@@ -4,7 +4,7 @@ import ellipse1 from '../../images/ellipse1.png';
 
 const Questions = () => {
     return (
-        <div className='md:flex justify-between mt-12'>
+        <div className='md:flex justify-between mb-12 px-20 lg:px-40'>
             <div className='sm:w-full md:w-3/5'>
                 <h1 className='text-xl text-secondary font-semibold'>FAQ Questions</h1>
                 <h2 className='text-4xl font-semibold mt-3'>Get Your General Answer</h2>
@@ -72,7 +72,7 @@ const Questions = () => {
 
             <div style={{
                 background: `url(${ellipse1})`,
-                backgroundSize: 'cover'
+                backgroundSize: 'cover',
             }}>
                 <img src={pose4} alt="pose4" />
             </div>

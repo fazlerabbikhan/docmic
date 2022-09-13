@@ -6,7 +6,7 @@ import ellipse1 from '../../images/ellipse1.png';
 
 const Header = () => {
     return (
-        <div className='py-12'>
+        <div className='my-20 px-20 lg:px-40'>
             <div className='md:flex justify-between'>
                 <div>
                     <h1 className='text-6xl font-semibold w-4/5'>Your <span className='text-primary'>Health</span> Is Our Top <span className='text-secondary'>Priority</span></h1>

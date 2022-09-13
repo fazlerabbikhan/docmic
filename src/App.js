@@ -5,7 +5,7 @@ import Navbar from './components/shared/Navbar';
 
 function App() {
   return (
-    <div className='mx-20 lg:mx-40'>
+    <div className='bg-gradient-to-r from-sky-50 to-pink-50'>
       <Navbar></Navbar>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
