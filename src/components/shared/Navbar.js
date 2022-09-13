@@ -25,13 +25,16 @@ const Navbar = () => {
                             {menuItems}
                         </ul>
                     </div>
+
                     <a className="btn btn-ghost text-xl font-bold"><span className='text-primary'>Doc</span><span className='text-secondary'>mic.</span></a>
                 </div>
+
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal p-0">
                         {menuItems}
                     </ul>
                 </div>
+
                 <button className="navbar-end">
                     <Link className="btn btn-primary" to='/'>Free Consulation</Link>
                 </button>

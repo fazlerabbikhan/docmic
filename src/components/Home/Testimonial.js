@@ -9,7 +9,7 @@ const Testimonial = () => {
         <div className='mb-12 px-20 lg:px-40'>
             <div>
                 <h1 className='text-xl text-secondary text-center font-semibold'>Testimonial</h1>
-                <h2 className='text-4xl text-center font-semibold mt-4'>What They Say?</h2>
+                <h2 className='text-4xl text-center font-semibold mt-3'>What They Say?</h2>
             </div>
 
             <div className='flex justify-between md:mx-20 mt-12'>

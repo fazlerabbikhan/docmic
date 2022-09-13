@@ -14,6 +14,7 @@ const Header = () => {
                     <button className='mt-8'>
                         <Link className='btn btn-primary' to='/'>Meet Our Specialist</Link>
                     </button>
+
                     <div className='md:flex justify-around mt-12'>
                         <div>
                             <h1 className='text-2xl text-secondary text-center font-semibold'>262k+</h1>
@@ -29,13 +30,12 @@ const Header = () => {
                         </div>
                     </div>
                 </div>
-                <div style={{
-                    background: `url(${ellipse1})`,
-                    backgroundSize: 'cover'
-                }} className='relative'>
-                    <img src={pose1} alt="pose1" />
-                    <button className='absolute bottom-20 -left-20'>
-                        <Link className='btn btn-secondary' to='/'><img src={tic} alt="tic" />Regular Checkup</Link>
+
+                <div className='relative'>
+                    <img src={ellipse1} className="absolute" alt="" />
+                    <img src={pose1} className="relative" alt="" />
+                    <button className='relative bottom-28 -left-20'>
+                        <Link className='btn btn-secondary' to='/'><img src={tic} className='pt-2' alt="" />Regular Checkup</Link>
                     </button>
                 </div>
             </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import pose4 from '../../images/pose4.png';
 import ellipse1 from '../../images/ellipse1.png';
+import ellipse2 from '../../images/ellipse2.png';
 
 const Questions = () => {
     return (
@@ -70,11 +71,10 @@ const Questions = () => {
                 </div>
             </div>
 
-            <div style={{
-                background: `url(${ellipse1})`,
-                backgroundSize: 'cover',
-            }}>
-                <img src={pose4} alt="pose4" />
+            <div className='relative'>
+                <img src={ellipse1} className='absolute w-1/2 left-20' alt="" />
+                <img src={ellipse2} className='absolute bottom-12' alt="" />
+                <img src={pose4} className='relative' alt="" />
             </div>
         </div>
     );
