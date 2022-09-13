@@ -16,11 +16,12 @@ const Feature = () => {
                 <img src={pose3} alt="pose3" />
             </div>
 
-            <div className='w-3/5'>
-                <h1 className='text-secondary'>Our Hospital Feature</h1>
+            <div className='sm:w-full md:w-3/5'>
+                <h1 className='text-xl text-secondary font-semibold'>Our Hospital Feature</h1>
                 <h2 className='text-4xl font-semibold mt-3'>Make An Appointment Easy And Fast Services</h2>
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 mt-12'>
-                    <div className="card card-compact w-72 bg-base-100 shadow-xl">
+
+                <div className='grid grid-cols-1 md:grid-cols-2 gap-5 mt-6'>
+                    <div className="card card-compact bg-base-100 shadow-xl">
                         <div className="card-body relative">
                             <h2 className="font-semibold">24 Hours Doctor Support</h2>
                             <p className='my-4'>simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
@@ -30,7 +31,7 @@ const Feature = () => {
                         </div>
                     </div>
 
-                    <div className="card card-compact w-72 bg-base-100 shadow-xl">
+                    <div className="card card-compact bg-base-100 shadow-xl">
                         <div className="card-body relative">
                             <h2 className="font-semibold">Exclusive Supports</h2>
                             <p className='my-4'>simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
@@ -40,7 +41,7 @@ const Feature = () => {
                         </div>
                     </div>
 
-                    <div className="card card-compact w-72 bg-base-100 shadow-xl">
+                    <div className="card card-compact bg-base-100 shadow-xl">
                         <div className="card-body relative">
                             <h2 className="font-semibold">Friendly Environment</h2>
                             <p className='my-4'>simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
@@ -50,7 +51,7 @@ const Feature = () => {
                         </div>
                     </div>
 
-                    <div className="card card-compact w-72 bg-base-100 shadow-xl">
+                    <div className="card card-compact bg-base-100 shadow-xl">
                         <div className="card-body relative">
                             <h2 className="font-semibold">24 Hours Nurse Support</h2>
                             <p className='my-4'>simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>

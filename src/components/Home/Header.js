@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import pose1 from '../../images/pose1.png'
-import tic from '../../images/tic.png'
-import ellipse1 from '../../images/ellipse1.png'
+import pose1 from '../../images/pose1.png';
+import tic from '../../images/tic.png';
+import ellipse1 from '../../images/ellipse1.png';
 
 const Header = () => {
     return (
@@ -14,7 +14,7 @@ const Header = () => {
                     <button className='mt-8'>
                         <Link className='btn btn-primary' to='/'>Meet Our Specialist</Link>
                     </button>
-                    <div className='md:flex justify-between mt-12 w-4/5'>
+                    <div className='md:flex justify-around mt-12'>
                         <div>
                             <h1 className='text-2xl text-secondary text-center font-semibold'>262k+</h1>
                             <h2 className='text-center'>Recovered Patients</h2>

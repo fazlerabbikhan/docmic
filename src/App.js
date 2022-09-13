@@ -5,7 +5,7 @@ import Navbar from './components/shared/Navbar';
 
 function App() {
   return (
-    <div className='mx-40'>
+    <div className='mx-20 lg:mx-40'>
       <Navbar></Navbar>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
