@@ -14,10 +14,10 @@ const Services = () => {
                 <h2 className='text-4xl text-center font-semibold mt-4'>Services For Your Health</h2>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-12'>
-                <div className="card w-60 bg-base-100 shadow-xl">
+                <div className="card card-compact w-60 bg-base-100 shadow-xl">
                     <div className="card-body relative">
-                        <h2 className="card-title">Cardiology</h2>
-                        <p>Seduahag perspiciati under omnised atused error.</p>
+                        <h2 className="font-semibold">Cardiology</h2>
+                        <p className='my-4'>Seduahag perspiciati under omnised atused error.</p>
                         <div className="card-actions justify-start">
                             <Link to='/' className='text-xl hover:text-primary font-semibold'>Explore Now</Link>
                         </div>
@@ -27,10 +27,10 @@ const Services = () => {
                     </div>
                 </div>
 
-                <div className="card w-60 bg-base-100 shadow-xl">
+                <div className="card card-compact w-60 bg-base-100 shadow-xl">
                     <div className="card-body relative">
-                        <h2 className="card-title">Monthly Check Up</h2>
-                        <p>Seduahag perspiciati under omnised atused error.</p>
+                        <h2 className="font-semibold">Monthly Check Up</h2>
+                        <p className='my-4'>Seduahag perspiciati under omnised atused error.</p>
                         <div className="card-actions justify-start">
                             <Link to='/' className='text-xl hover:text-primary font-semibold'>Explore Now</Link>
                         </div>
@@ -40,10 +40,10 @@ const Services = () => {
                     </div>
                 </div>
 
-                <div className="card w-60 bg-base-100 shadow-xl">
+                <div className="card card-compact w-60 bg-base-100 shadow-xl">
                     <div className="card-body relative">
-                        <h2 className="card-title">Dental Care</h2>
-                        <p>Seduahag perspiciati under omnised atused error.</p>
+                        <h2 className="font-semibold">Dental Care</h2>
+                        <p className='my-4'>Seduahag perspiciati under omnised atused error.</p>
                         <div className="card-actions justify-start">
                             <Link to='/' className='text-xl hover:text-primary font-semibold'>Explore Now</Link>
                         </div>
@@ -53,10 +53,10 @@ const Services = () => {
                     </div>
                 </div>
 
-                <div className="card w-60 bg-base-100 shadow-xl">
+                <div className="card card-compact w-60 bg-base-100 shadow-xl">
                     <div className="card-body relative">
-                        <h2 className="card-title">Opthalmology</h2>
-                        <p>Seduahag perspiciati under omnised atused error.</p>
+                        <h2 className="font-semibold">Opthalmology</h2>
+                        <p className='my-4'>Seduahag perspiciati under omnised atused error.</p>
                         <div className="card-actions justify-start">
                             <Link to='/' className='text-xl hover:text-primary font-semibold'>Explore Now</Link>
                         </div>

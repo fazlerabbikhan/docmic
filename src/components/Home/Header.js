@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import pose_2 from '../../images/pose_2.png'
+import pose1 from '../../images/pose1.png'
 import tic from '../../images/tic.png'
-import ellipse from '../../images/ellipse.png'
+import ellipse1 from '../../images/ellipse1.png'
 
 const Header = () => {
     return (
@@ -30,10 +30,10 @@ const Header = () => {
                     </div>
                 </div>
                 <div style={{
-                    background: `url(${ellipse})`,
+                    background: `url(${ellipse1})`,
                     backgroundSize: 'cover'
                 }} className='relative'>
-                    <img src={pose_2} alt="pose_2" />
+                    <img src={pose1} alt="pose1" />
                     <button className='absolute bottom-20 -left-20'>
                         <Link className='btn btn-secondary' to='/'><img src={tic} alt="tic" />Regular Checkup</Link>
                     </button>

@@ -1,4 +1,5 @@
 import React from 'react';
+import Experiences from './Experiences';
 import Header from './Header';
 import Services from './Services';
 
@@ -7,6 +8,7 @@ const Home = () => {
         <div>
             <Header></Header>
             <Services></Services>
+            <Experiences></Experiences>
         </div>
     );
 };
