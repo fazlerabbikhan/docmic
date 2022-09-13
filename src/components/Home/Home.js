@@ -4,6 +4,7 @@ import Feature from './Feature';
 import Header from './Header';
 import Questions from './Questions';
 import Services from './Services';
+import Testimonial from './Testimonial';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Experiences></Experiences>
             <Feature></Feature>
             <Questions></Questions>
+            <Testimonial></Testimonial>
         </div>
     );
 };
